@@ -4,10 +4,10 @@ const formNote = document.querySelector("#form-note");
 
 const openWhatsAppLead = (name, phone) => {
   const message = [
-    "Oi! Quero entrar para a lista VIP do Empório Lá Biere.",
+    "Oi! Quero falar com o Empório Lá Biere sobre bebidas.",
     `Nome: ${name}`,
     `WhatsApp: ${phone}`,
-    "Quero receber promoções, eventos e também fazer minha reserva."
+    "Quero tirar dúvidas sobre disponibilidade e atendimento."
   ].join("\n");
 
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
